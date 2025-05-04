@@ -1,0 +1,136 @@
+.main1{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(70px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+
+}
+.main1 h1{
+    font-size: 36px;
+    text-align: center;
+
+}
+body {
+    
+        background: url('images/details.jpg')no-repeat;
+        background-size: cover;
+        background-position: center;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+   
+}
+.userdet {
+    background: url('images/details.jpg')no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.userpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.userdetails {
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Drop shadow effect */
+    width: 80%; /* Adjust the width to 80% of the viewport width */
+    max-width: 600px; /* Limit the maximum width */
+    height: 80%; /* Adjust the height to 80% of the viewport height */
+    max-height: 600px; /* Limit the maximum height */
+    display: flex; /* Align content vertically and horizontally */
+    flex-direction: column; /* Stack child elements vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    backdrop-filter: blur(90px);
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.links ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+.links ul li {
+    margin-bottom: 10px;
+}
+
+.links ul li a {
+    display: inline-block; /* Display links as blocks */
+    padding: 10px 20px; /* Add padding for better clickability */
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    background-color: #fff; /* Background color for better contrast */
+    border-radius: 5px; /* Add rounded corners */
+    border: 2px solid #333; /* Add border for better visibility */
+    transition: background-color 0.3s, color 0.3s;
+}
+.links ul li a:hover {
+        background-color: #333; /* Change background color on hover */
+        color: #fff; /* Change text color on hover */
+}
+.userpage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;;
+    height: 100vh;
+   
+    background-image: url('images/details.jpg')no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.userdetails,.links {
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2); /* Drop shadow effect */
+    margin-bottom:20px;
+    backdrop-filter: blur(5px);
+    
+}
+
+
+.links ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.links ul li {
+    margin-bottom: 10px;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.links ul li a:hover {
+    color: #555;
+}
+.success-message {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
