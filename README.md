@@ -94,7 +94,7 @@ The **Travel Card Vending Machine (TCVM)** is a web-based application designed t
 ## 🤝 Contributors
 
 - [Venkata Yaswanth](https://github.com/venkatayaswanth1)
-- [Vangapandu Tejaraam](https://github.com/username2)
+- [Vangapandu Tejaraam](https://github.com/Tejaraam)
 
 
 ---
