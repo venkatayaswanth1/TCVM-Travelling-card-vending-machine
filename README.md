@@ -9,7 +9,7 @@ The **Travel Card Vending Machine (TCVM)** is a web-based application designed t
 ### 👤 User Functions
 - **User Registration** with personal details and valid ID proof
 - **Card Issuance** after successful registration and payment
-- **Card Recharge** via integrated credit/debit card payment
+- **Card Recharge** via integrated credit/debit card payment (dummy method)
 - **Account Deletion** for users who no longer need the service
 
 ### 🛠️ Admin Functions
@@ -26,7 +26,15 @@ The **Travel Card Vending Machine (TCVM)** is a web-based application designed t
 - [x] Register: New user sign-up with validation
 - [x] Card Printing: Display user details and paid amount on virtual card
 - [x] Login: Card-based login system for registered users
-- [x] Payment: Integrated payment gateway for adding funds
+- [x] Payment: Integrated dummy payment gateway for adding funds
+
+---
+
+### 💳 Payment (Dummy Gateway)
+
+- The project uses a **dummy payment system** to simulate credit/debit card transactions.
+- **No real money is transferred** — it only imitates payment behavior for demonstration and educational purposes.
+- Useful for testing the payment workflow without involving actual banking systems.
 
 ---
 
@@ -55,7 +63,7 @@ The **Travel Card Vending Machine (TCVM)** is a web-based application designed t
 
 3. **Install dependencies**
    ```bash
-   pip install -r requirements.txt
+   pip install -r "Django>=3.2,<5.0"
    ```
 
 4. **Run migrations**
@@ -72,11 +80,7 @@ The **Travel Card Vending Machine (TCVM)** is a web-based application designed t
 
 ---
 
-## 📸 Screenshots
 
-> *(Add screenshots of the UI for login, registration, card printing, etc.)*
-
----
 
 ## 📌 Future Enhancements
 
@@ -89,18 +93,13 @@ The **Travel Card Vending Machine (TCVM)** is a web-based application designed t
 
 ## 🤝 Contributors
 
-- [Your Name 1](https://github.com/username1)
-- [Your Name 2](https://github.com/username2)
-- [Your Name 3](https://github.com/username3)
-- [Your Name 4](https://github.com/username4)
+- [Venkata Yaswanth](https://github.com/venkatayaswanth1)
+- [Vangapandu Tejaraam](https://github.com/username2)
+
 
 ---
 
-## 📄 License
 
-This project is for educational purposes as part of the Software Engineering Lab and is not licensed for commercial use.
-
----
 
 ## 💬 Feedback
 
