@@ -51,8 +51,9 @@ The **Travel Card Vending Machine (TCVM)** is a web-based application designed t
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/tcvm.git
-   cd tcvm
+   git clone https://github.com/venkatayaswanth1/TCVM-Travelling-card-vending-machine
+   cd TCVM-Travelling-card-vending-machine
+   cd learn
    ```
 
 2. **Create a virtual environment (optional but recommended)**
