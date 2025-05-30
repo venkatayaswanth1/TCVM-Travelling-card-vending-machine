@@ -18,7 +18,12 @@ SECRET_KEY = os.getenv("SECRET_KEY", "your-fallback-secret-key")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv("DEBUG", "False") == "True"
 
-ALLOWED_HOSTS = [host.strip() for host in os.getenv("ALLOWED_HOSTS", 'tcvm-travelling-card-vending-machine.onrender.com').split(",")]
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'your-render-url.onrender.com',
+    'tcvm-travelling-card-vending-machine.onrender.com',
+]
 
 # Application definition
 INSTALLED_APPS = [
