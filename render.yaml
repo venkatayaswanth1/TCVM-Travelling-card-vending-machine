@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: bgn-project
+    env: python
+    buildCommand: |
+      pip install -r requirements.txt
+      python manage.py collectstatic --no-input
+      python manage.py migrate
+    startCommand: gunicorn bgn_project.wsgi:application
+    envVars:
+      - key: SECRET_KEY
+        value: your-secret-key
+      - key: DEBUG
+        value: False
+      - key: ALLOWED_HOSTS
+        value: bgn-project.onrender.com
+      - key: EMAIL_HOST_USER
+        value: beginners913@gmail.com
+      - key: EMAIL_HOST_PASSWORD
+        value: your-app-password
